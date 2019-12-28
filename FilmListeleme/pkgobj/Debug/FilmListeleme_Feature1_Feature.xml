@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="c17d336b-4830-453c-a8ec-3ece596cf52e" Scope="Site" Title="FilmListeleme Feature1">
+  <ElementManifests>
+    <ElementManifest Location="FilmSecimiProvider\Elements.xml" />
+    <ElementFile Location="FilmSecimiProvider\FilmSecimiProvider.webpart" />
+    <ElementManifest Location="FilmGosterimConsumer\Elements.xml" />
+    <ElementFile Location="FilmGosterimConsumer\FilmGosterimConsumer.webpart" />
+    <ElementManifest Location="ListsInstance\Elements.xml" />
+    <ElementManifest Location="Lists\Elements.xml" />
+    <ElementFile Location="Lists\Schema.xml" />
+    <ElementManifest Location="Film_EventReceiver\Elements.xml" />
+    <ElementManifest Location="Movie\Elements.xml" />
+    <ElementFile Location="Movie\Movie.webpart" />
+  </ElementManifests>
+</Feature>

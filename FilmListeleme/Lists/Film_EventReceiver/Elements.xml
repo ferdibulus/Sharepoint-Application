@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListTemplateId="100">
+      <Receiver>
+        <Name>Film_EventReceiverItemAdding</Name>
+        <Type>ItemAdding</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>FilmListeleme.Lists.Film_EventReceiver.Film_EventReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>Film_EventReceiverItemUpdating</Name>
+        <Type>ItemUpdating</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>FilmListeleme.Lists.Film_EventReceiver.Film_EventReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+      <Receiver>
+        <Name>Film_EventReceiverItemDeleting</Name>
+        <Type>ItemDeleting</Type>
+        <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+        <Class>FilmListeleme.Lists.Film_EventReceiver.Film_EventReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+  </Receivers>
+</Elements>

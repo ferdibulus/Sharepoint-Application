@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="820782a4-de6a-4090-bb83-f372153c2717" solutionId="820782a4-de6a-4090-bb83-f372153c2717" resetWebServer="false" sharePointProductVersion="16.0" name="FilmListeleme" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="92b6702b-fcb6-4466-9b04-7aa01e342b8a" />
+  </features>
+</package>

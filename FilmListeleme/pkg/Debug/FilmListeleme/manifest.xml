@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="820782a4-de6a-4090-bb83-f372153c2717" SharePointProductVersion="16.0">
+  <Assemblies>
+    <Assembly Location="FilmListeleme.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="FilmListeleme, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b9b1817339adf9db" Namespace="FilmListeleme.FilmSecimiProvider" TypeName="*" />
+        <SafeControl Assembly="FilmListeleme, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b9b1817339adf9db" Namespace="FilmListeleme.FilmGosterimConsumer" TypeName="*" />
+        <SafeControl Assembly="FilmListeleme, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b9b1817339adf9db" Namespace="FilmListeleme.Movie" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="FilmListeleme_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>
